@@ -12,11 +12,24 @@
 			alert("La página se ha cargado");
 			});
 			var boton = document.getElementById("miBoton");
+			window.addEventListener("keydown",tecla_presionada)
+
+
 			boton.addEventListener("click",boton_click);
-			function boton_click()
+			/*function boton_click()
 			{
 				alert("Me clickeaste, ja ja ja");	
 				boton.removeEventListener("click",boton_click);
+			}*/
+			function boton_click(evento)
+			{
+				alert("Me clickeaste, ja ja ja");	
+				alert(evento.screenX);	
+			}
+			
+			function tecla_presionada(evento)
+			{
+				alert(evento.keyCode);
 			}
 
 	</script>

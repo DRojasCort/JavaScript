@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>Objetos en javaScript</title>
+</head>
+<body>
+	<script type="text/javascript">
+	/**/
+	var Gato1 = new gato("Garlfield");
+	var Gato2 = new gato("Adrian");
+
+	function gato(nombre)
+	{
+		this.nombre = nombre;
+		this.maulla = function(){alert(this.nombre + ": miauuuuuuu")};
+	}
+	alert("El gato1 se llama: " + Gato1.nombre);
+	alert("El gato2 se llama: " + Gato2.nombre);
+	Gato1.maulla();
+	Gato2.maulla();
+
+	</script>
+</body>
+</html>
