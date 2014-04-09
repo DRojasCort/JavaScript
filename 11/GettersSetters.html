@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Eventos en Java script</title>
+	<script src="jquery-2.1.0.min.js"></script>
+	<script>
+		$(document).on("ready",function(){
+		//Este método sirve para OBTENER el id
+		var clase = $("#prueba").attr("id");
+		alert(clase);
+		//Este método ASIGNA un valor
+		$("#prueba").attr("class","ejemplo");
+		});
+	</script>
+</head>
+<body>
+	<p id="parrafo">
+		<strong>Hola jQuery</strong>
+	</p>
+	<div id="prueba"></div>
+</body>
+</html>

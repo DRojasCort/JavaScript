@@ -1,0 +1,25 @@
+body,html
+		{
+			background-color: #CCC;
+			color:#f0f;
+			font-family: Arial;
+			margin: 0;
+			padding: 0;
+		}
+
+		#item1
+		{
+			background-color: #F6F6F6;
+			height: 50px;
+			margin: 5% auto;
+			width: 300px;
+		}
+
+		#item2
+		{
+			display: block;
+			background-color: #000;
+			height: 50px;
+			margin: 5% auto;
+			width: 300px;
+		}

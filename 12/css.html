@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Método CSS</title>
+	<link rel="stylesheet" href="estilo.css">
+	<script src="jquery-2.1.0.min.js"></script>
+	<script>
+		$(document).on('ready',function(){
+			
+			$('body,html').css('background','#00A');
+			
+			//$('h1').css('text-align','center');//primera forma				
+			var cssH1 = {'text-align':'center',//segunda forma
+						'color':'red',
+						'font-family':'Times new Roman'}
+			$('h1').css(cssH1);
+
+			var bgItem2 = $('#item2').css('background-color');
+			var cItem2 = $('#item2').css('color');
+
+			if(bgItem2 === cItem2)
+				$('#item2').css('color','#FFF');
+
+		});
+	</script>
+
+</head>
+<body>
+	<h1>Método .css() de jQuery</h1>
+	<div id="item1">Item 1</div>
+	<div id="item2">Item 2</div>
+
+</body>
+</html>
