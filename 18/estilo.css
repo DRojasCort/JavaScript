@@ -1,0 +1,32 @@
+body,html
+{
+	background: #000;
+	color:#000;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	display: block;
+	margin: 0 auto 50px auto;
+	width: 365px;
+}
+
+
+button
+{
+	display: block;
+	margin: 0 auto;
+	width: 80px;	
+}
+
+div
+{
+	background: #FFF;
+	height: 50px;
+	display: block;
+	width: 400px;
+	margin: 2px auto;
+}
