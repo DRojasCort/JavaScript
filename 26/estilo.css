@@ -1,0 +1,24 @@
+body,html
+{
+	padding:100px;
+	background-color: gray;
+}
+
+div
+{
+	display: block;
+	height: 80px;
+	width: 400px;
+	margin: 0 auto;
+}
+
+#caja1
+{
+	background: rgba(255,0,0,0.8);
+	margin-bottom: 100px;
+}
+
+#caja2
+{
+	background: rgba(0,0,255,0.8);
+}

@@ -1,0 +1,19 @@
+$(document).on('ready',function(){
+	
+	$('#miInput').on('cambio',function(ev,id){
+		console.log(id);
+		if(this.checked)
+		{
+			$('#miInput').prop('checked',false);
+			$('.cambiar').text('Encender');
+		}
+		else
+		{
+			$('#miInput').prop('checked',true);
+			$('.cambiar').text('Apagado');
+		};
+	});
+	$('.cambiar').on('click',function(){
+		$('#miInput').trigger('cambio',[$(this).attr('id')]);
+	});
+});

@@ -1,0 +1,19 @@
+#caja1
+{
+	background: rgba(A,A,A,0.8);
+	display: block;
+	height: 80px;
+	margin: 5% auto;
+	width: 400px;
+
+}
+
+div
+{
+	background: #00A;
+	color: #FFF;
+	height: 50px;
+	display: block;
+	width: 400px;
+	margin: 2px auto;
+}
